@@ -1,5 +1,5 @@
 # Python-Django-Movie-Rating-App
-![image](movie.PNG)
+![image](https://ibb.co/qMD0LrK)
 
 ### This app is built using a Python-based free and open-source web framework called [Django](https://www.djangoproject.com/).
 
