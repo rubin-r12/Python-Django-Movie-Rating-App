@@ -8,11 +8,11 @@
 ## Setting up Virtual Environment
 * Creating a virtual environment
 ```bash
-conda create --name todoapp python=3.8
+conda create --name movieapp python=3.8
 ```
 * To activate the virtual environment
 ```bash
-conda activate todoapp
+conda activate movieapp
 ```
 * Installing requirements
 ```bash
@@ -20,7 +20,7 @@ pip3 install -r requirements.txt
 ```
 * Run Server
 ```bash
-python app.py runserver
+python manage.py runserver
 ```
 >This app uses C.R.U.D functionality to enhance the movie rating experience.
 ---
