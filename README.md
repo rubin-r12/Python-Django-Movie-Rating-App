@@ -5,11 +5,22 @@
 
 ### A Personalized app to create a profile of your favourite movies, give them ratings as per your choice and even delete/ update them whenever its needed.
 
-## Creating a Virtual Environment
+## Setting up Virtual Environment
+* Creating a virtual environment
 ```bash
-conda create --name movieapp python=3.8
-conda activate movieapp
-pip3 install -r requirements.txt
-python manage.py runserver
+conda create --name todoapp python=3.8
 ```
- ---
+* To activate the virtual environment
+```bash
+conda activate todoapp
+```
+* Installing requirements
+```bash
+pip3 install -r requirements.txt
+```
+* Run Server
+```bash
+python app.py runserver
+```
+>This app uses C.R.U.D functionality to enhance the movie rating experience.
+---
